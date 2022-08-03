@@ -1,0 +1,17 @@
+﻿/////////////////////////////////////////////////////////////////////////////
+//
+//  Script   : SDKWindowsBase.cs
+//  Info     : SDK Windows实现
+//  Author   : ls9512
+//  E-mail   : 598914653@qq.com
+//
+//  Copyright : Aya Game Studio 2018
+//
+/////////////////////////////////////////////////////////////////////////////
+
+namespace Aya.SDK
+{
+	public class SDKWindowsBase : SDKBase
+	{
+	}
+}

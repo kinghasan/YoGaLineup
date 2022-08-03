@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2527c6dddc894b84dab08cf8a7fd81f5, type: 3}
+  m_Name: UTweenEditorSetting
+  m_EditorClassIdentifier: 
+  EnableColor: {r: 0.6083019, g: 0.9811321, b: 0.6334365, a: 1}
+  DisableColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+  ErrorColor: {r: 1, g: 0.5, b: 0.5, a: 1}
+  SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  ProgressColor: {r: 0.2653524, g: 0.8396226, b: 0.43921402, a: 1}
+  ProgressBackColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+  SubProgressColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  SubProgressHoldColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  ProgressDisableColor: {r: 0.25, g: 0.25, b: 0.25, a: 0.7490196}
+  ShowGroupReminder: 1
+  GroupReminderWidth: 3
+  HideFullSubProgress: 1
+  GroupDataList:
+  - Name: Transform
+    Color: {r: 0, g: 1, b: 0.083333254, a: 1}
+    IconPath: Transform Icon
+  - Name: RectTransform
+    Color: {r: 0, g: 1, b: 0.9333334, a: 1}
+    IconPath: RectTransform Icon
+  - Name: UGUI
+    Color: {r: 0, g: 0.7666669, b: 1, a: 1}
+    IconPath: Canvas Icon
+  - Name: UGUI Text
+    Color: {r: 0, g: 0.7686275, b: 1, a: 1}
+    IconPath: Text Icon
+  - Name: UGUI Layout
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    IconPath: GridLayoutGroup Icon
+  - Name: UGUI Scroll
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    IconPath: ScrollRect Icon
+  - Name: UGUI Effect
+    Color: {r: 0, g: 0.7686275, b: 1, a: 1}
+    IconPath: Shadow Icon
+  - Name: Path
+    Color: {r: 0.85, g: 1, b: 0, a: 1}
+    IconPath: EdgeCollider2D Icon
+  - Name: Physics
+    Color: {r: 0, g: 1, b: 0.5500002, a: 1}
+    IconPath: Rigidbody Icon
+  - Name: Animation
+    Color: {r: 0, g: 0.51666665, b: 1, a: 1}
+    IconPath: Animation Icon
+  - Name: Rendering
+    Color: {r: 0.6333332, g: 0, b: 1, a: 1}
+    IconPath: MeshRenderer Icon
+  - Name: Material
+    Color: {r: 1, g: 0, b: 0.9833331, a: 1}
+    IconPath: Material Icon
+  - Name: Camera
+    Color: {r: 0, g: 0.9833336, b: 1, a: 1}
+    IconPath: Camera Icon
+  - Name: Audio
+    Color: {r: 1, g: 0.73333335, b: 0, a: 1}
+    IconPath: AudioSource Icon
+  - Name: Misc
+    Color: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+    IconPath: GameManager Icon
+  - Name: Property
+    Color: {r: 0, g: 0.55, b: 0.027499974, a: 1}
+    IconPath: cs Script Icon
+  - Name: Unity Event
+    Color: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+    IconPath: BuildSettings.Editor
+  - Name: TextMeshPro
+    Color: {r: 0, g: 0.7686275, b: 1, a: 1}
+    IconPath: Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component
+      Icon.psd

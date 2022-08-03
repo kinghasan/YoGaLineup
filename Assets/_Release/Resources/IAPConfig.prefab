@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1284778273782284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4157239218273998}
+  - component: {fileID: 114027697361487662}
+  m_Layer: 0
+  m_Name: IAPConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4157239218273998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284778273782284}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114027697361487662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284778273782284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06c6e7276d7cfb468d2966e353df6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Products:
+  - ProductID: item_01
+    ProductName: item_01
+    ProductDesc: item_01
+    PayType: 10
+    Amount: 0
+    Discount: 1
+    ItemKey: item_01
+    Value: 0
+    Reward: 0
+  - ProductID: item_02
+    ProductName: item_02
+    ProductDesc: item_02
+    PayType: 10
+    Amount: 0
+    Discount: 1
+    ItemKey: item_02
+    Value: 0
+    Reward: 0
+  - ProductID: item_03
+    ProductName: item_03
+    ProductDesc: item_03
+    PayType: 10
+    Amount: 0
+    Discount: 1
+    ItemKey: item_03
+    Value: 0
+    Reward: 0
+  - ProductID: item_04
+    ProductName: item_04
+    ProductDesc: item_04
+    PayType: 10
+    Amount: 0
+    Discount: 1
+    ItemKey: item_04
+    Value: 0
+    Reward: 0
+  - ProductID: item_05
+    ProductName: item_05
+    ProductDesc: item_05
+    PayType: 10
+    Amount: 0
+    Discount: 1
+    ItemKey: item_05
+    Value: 0
+    Reward: 0
+  - ProductID: item_06
+    ProductName: item_06
+    ProductDesc: item_06
+    PayType: 10
+    Amount: 0
+    Discount: 1
+    ItemKey: item_06
+    Value: 0
+    Reward: 0
+  - ProductID: item_vip
+    ProductName: item_vip
+    ProductDesc: item_vip
+    PayType: 30
+    Amount: 0
+    Discount: 1
+    ItemKey: item_vip
+    Value: 0
+    Reward: 0
+  - ProductID: item_gift
+    ProductName: item_gift
+    ProductDesc: item_gift
+    PayType: 10
+    Amount: 0
+    Discount: 1
+    ItemKey: item_gift
+    Value: 0
+    Reward: 0
+  AppID: 193020803983
+  Base64EncodedPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAom/aMwxtAONLXueKRTf2rK22/bxoEvQQaEeXoeCUTALOL0c8uVF6+mvg5PdYM4y/MlTtLwTzracZpxcXSgUq9lvr6vDYB6iKR0gngLc5nR2jwpKZo/8qBlm2YdSFuloFmOeng5ZBO62GuJWU8b/mfk4c/OSOpmD6gulS+SpYuGm6z55HP3ukIf8K1bqAoXaNkvuoHxw8Grv8yT9hTepdlo5LUDxkyk1+2tOjMyGlrVmyMChNyh6vX0m7C3zi0ytWDj5/fz9NJIfSbDEOQ6pv55P9Lsu7diJOSMCM6KNbc6kfTUOhI44HP/GmuHQDjfL1ezPBu7taUpSGXTovcn8mswIDAQAB
