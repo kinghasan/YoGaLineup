@@ -191,6 +191,7 @@ public class CLIKConfiguration : EditorWindow
                 return;
             }
 
+            //RemoveOldFilesIfExists();
             if (!UnzipAnLoadConfiguration())
             {
                 return;
@@ -1417,6 +1418,46 @@ public class CLIKConfiguration : EditorWindow
     private GUIStyle _greenIndicator = new GUIStyle();
     private GUIStyle _minusIcon = new GUIStyle();
 
+    private static String[] directoriesToRemove =
+    {
+        "Assets/Plugins/Android", 
+        "Assets/Tabtale/TTPlugins/CLIK/gradletemplates"
+    };
+    private static String[] filesToRemove =
+    {
+        "Assets/Plugins/Android.meta",
+        "Assets/Tabtale/TTPlugins/CLIK/gradletemplates.meta",
+        "Assets/Tabtale/TTPlugins/CLIK/Editor/TTPGradlePreProcess.cs", 
+        "Assets/Tabtale/TTPlugins/CLIK/Editor/TTPGradlePreProcess.cs.meta"
+    };
+
+    private static void RemoveOldFilesIfExists()
+    {
+        foreach (var directoryName in directoriesToRemove)
+        {
+            if (Directory.Exists(directoryName))
+            {
+                DirectoryInfo di = new DirectoryInfo(directoryName);
+                foreach (FileInfo file in di.GetFiles())
+                {
+                    file.Delete();
+                }
+                foreach (DirectoryInfo dir in di.GetDirectories())
+                {
+                    dir.Delete(true);
+                }
+                Directory.Delete(directoryName);
+            }
+        }
+        foreach (var fileName in filesToRemove)
+        {
+            if (File.Exists(fileName))
+            {
+                File.Delete(fileName);
+            }
+        }
+    }
+    
     private static bool UnzipAnLoadConfiguration()
     {
         var zipPath = EditorUtility.OpenFilePanel("Choose Configuration Zip", "", "zip");

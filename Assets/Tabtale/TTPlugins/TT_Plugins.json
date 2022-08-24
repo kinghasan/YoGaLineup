@@ -1,7 +1,8 @@
 {
     "TT_Plugins_Facebook": "0.0.0.0.5",
+    "TT_Plugins_AppsFlyer": "3.8.0.6.2",
     "TT_Plugins_Billing": "0.0.0.0.115",
-    "TT_Plugins_Core": "3.8.0.5.2",
+    "TT_Plugins_Core": "3.8.0.7.1",
     "TT_Plugins_CrashTool": "0.0.0.0.60",
     "TT_Plugins_CrossDevicePersistency": "0.0.0.0.41",
     "TT_Plugins_CrossPromotion": "0.0.0.0.69",
@@ -15,16 +16,15 @@
     "TT_Plugins_Remote_Config": "0.0.0.0.42",
     "TT_Plugins_RewardedInterstitials": "3.8.0.5.1",
     "TT_Plugins_Social": "0.0.0.0.64",
-    "TT_Plugins_Analytics": "3.8.0.5.1",
+    "TT_Plugins_Analytics": "3.8.0.7.3",
     "TT_Plugins_Banners_MoPub": "3.8.0.5.1",
     "TT_Plugins_Banners_Admob": "3.8.0.5.1",
     "TT_Plugins_Interstitials_Admob": "3.8.0.5.1",
-    "TT_Plugins_RewardedAds_MoPub": "3.8.0.5.1",
     "TT_Plugins_Interstitials_MoPub": "3.8.0.5.1",
+    "TT_Plugins_RewardedAds_MoPub": "3.8.0.5.1",
     "TT_Plugins_RewardedAds_Admob": "3.8.0.5.1",
-    "TT_Plugins_FirebaseEchoAgent": "3.8.0.5.1",
-    "TT_Plugins_DeltaDnaAgent": "3.8.0.5.1",
-    "TT_Plugins_TTAnalyticsAgent": "3.8.0.5.1",
-    "TT_Plugins_FirebaseAgent": "3.8.0.5.1",
-    "TT_Plugins_AppsFlyer": "3.8.0.5.2"
+    "TT_Plugins_FirebaseEchoAgent": "3.8.0.7.3",
+    "TT_Plugins_DeltaDnaAgent": "3.8.0.7.3",
+    "TT_Plugins_TTAnalyticsAgent": "3.8.0.7.3",
+    "TT_Plugins_FirebaseAgent": "3.8.0.7.3"
 }
